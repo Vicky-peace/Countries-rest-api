@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Where in the world?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,6 +27,12 @@
             </select>
         </div>
         <main id="country-container"></main>
+        <section class="hidden" id="country-detail">
+            <button id="back-button">Back</button>
+            <div id="detail-content"></div>
+            <h3>Border Countries</h3>
+            <div id="border-countries"></div>
+        </section>
     </div>
     <script src="app.js"></script>
 </body>

@@ -93,3 +93,60 @@ body.light-mode .country-card {
 .country-card p {
     margin: 5px 0;
 }
+.hidden{
+    display: none;
+
+}
+
+#country-detail{
+    margin-top: 20px;
+}
+
+#detail-content{
+    background-color: #394b59;
+    padding: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode #detail-content{
+    background-color: #fff;
+    color: #111;
+}
+
+#border-countries{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.border-country{
+    background-color: #394b59;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.body.light-mode .border-country{
+    background-color: #fff;
+    color: #111;
+}
+
+#back-button{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode #back-button{
+    background-color: #394b59;
+    color: #fff;
+}
+
+body.dark-mode #back-button{
+    background-color: #fff;
+    color: #111;
+}
