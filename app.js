@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const countryContainer = document.getElementById('country-container');
     const themeToggleBtn = document.getElementById('theme-toggle');
 
-    // Check and apply the saved theme from localStorage
+    // LocalStorage theme
     const savedTheme = localStorage.getItem('theme') || 'light';
     applyTheme(savedTheme);
 
